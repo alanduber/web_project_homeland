@@ -1,17 +1,17 @@
 .intro {
-  max-width: 720px;
-  width: 720px;
-  margin: 0 304px 75px 148px;
-  background-color: #2a2c2f;
+  max-width: 828px;
+  width: 100%;
+  margin: 0 148px;
 }
 
 .intro__title {
   color: #fff;
-  max-width: 720px;
+  max-width: 828px;
+  width: 100%;
   font-family: "Inter";
   font-size: 54px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: bold;
   line-height: 58px;
   overflow-wrap: break-word;
   margin-bottom: 20px;
@@ -24,7 +24,7 @@
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 34px;
   margin-bottom: 9px;
   margin-top: 0;
@@ -37,7 +37,7 @@
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 34px;
   margin-top: 0;
   margin-bottom: 32px;
@@ -45,13 +45,54 @@
 
 .intro__text {
   max-width: 720px;
-  height: 182px;
   color: #fff;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 163%;
   margin-top: 0;
   margin-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 720px;
+    margin: 0 auto;
+  }
+  .intro__title {
+    width: 707px;
+    margin-bottom: 58px;
+  }
+  .intro__subtitle {
+    width: 707px;
+    margin-bottom: 13px;
+  }
+  .intro__text {
+    margin-bottom: 64px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 288px;
+  }
+  .intro__title {
+    width: 288px;
+    margin-bottom: 54px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .intro__subtitle {
+    line-height: 30px;
+    margin-bottom: 55px;
+    width: 288px;
+  }
+  .intro__subtitle-author {
+    width: 288px;
+    margin-bottom: 18px;
+  }
+  .intro__text {
+    width: 288px;
+    margin-bottom: 38px;
+  }
 }

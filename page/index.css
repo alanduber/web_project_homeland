@@ -1,0 +1,22 @@
+@import url(../vendor/normalize.css);
+@import url(/blocks/page.css);
+@import url(/blocks/header.css);
+@import url(/blocks/intro.css);
+@import url(/blocks/images.css);
+@import url(/blocks/places.css);
+
+@font-face {
+  font-family: "Inter";
+  src: url(/vendor/Fonts/InterDisplay-Black.woff2) format(woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/vendor/Fonts/InterDisplay-Regular.woff2) format(woff2);
+  font-weight: normal;
+}
+.body {
+  background-color: #2a2c2f;
+  margin: 0;
+  padding: 0;
+}

@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="page/style.css" />
-    <link rel="stylesheet" href="/blocks/fonts.css" />
+    <link rel="stylesheet" href="page/index.css" />
     <title>From Homeland to Homeland</title>
   </head>
   <body class="body">
@@ -27,7 +26,7 @@
         />
       </header>
       <main class="main">
-        <div class="intro">
+        <section class="intro">
           <h2 class="intro__title">
             Conheça um pouco mais sobre a localização dos seus amigos virtuais
           </h2>
@@ -47,50 +46,124 @@
             sua cidade natal à nossa coleção. Não importa de onde você é,
             estamos felizes por você ser nosso vizinho.
           </p>
-        </div>
-        <div class="cards">
-          <ul class="cards__list">
-            <li class="cards__list-item">
-              <img src="/images/image1__item.jpg" alt="imagem 1" />
+        </section>
+        <section class="images">
+          <ul class="images__list">
+            <li class="images__list-item">
+              <img src="/images/image1__item.jpg" class="images__list-photo" alt="imagem 1" />
             </li>
             <li class="cards__list-item">
-              <img src="/images/image2__item.jpg" alt="imagem 2" />
+              <img src="/images/image2__item.jpg" class="images__list-photo" alt="imagem 2" />
             </li>
             <li class="cards__list-item">
-              <img src="/images/image3__item.jpg" alt="imagem 3" />
+              <img src="/images/image3__item.jpg" class="images__list-photo" alt="imagem 3" />
             </li>
             <li class="cards__list-item">
-              <img src="/images/image4__item.jpg" alt="imagem 4" />
+              <img src="/images/image4__item.jpg" class="images__list-photo" alt="imagem 4" />
             </li>
             <li class="cards__list-item">
-              <img src="images/image5__item.jpg" alt="imagem 5" />
+              <img src="images/image5__item.jpg" class="images__list-photo" alt="imagem 5" />
             </li>
             <li class="cards__list-item">
-              <img src="images/image6__item.jpg" alt="imagem 6" />
+              <img src="images/image6__item.jpg" class="images__list-photo" alt="imagem 6" />
             </li>
             <li class="cards__list-item">
-              <img src="images/image7__item.jpg" alt="imagem 7" />
+              <img src="images/image7__item.jpg" class="images__list-photo" alt="imagem 7" />
             </li>
             <li class="cards__list-item">
-              <img src="images/image8__item.jpg" alt="imagem 8" />
+              <img src="images/image8__item.jpg" class="images__list-photo" alt="imagem 8" />
             </li>
           </ul>
-        </div>
-        <div class="places">
-          <ul class="places__list">
-            <li class="places__list-item">
-              <h2 class="places__list-item-title">Kiev, Ucrânia</h2>
-              <img
-                src="images/places__image.jpg"
-                alt="Imagem de Kiev Ucrania"
-                class="places__list-item-image"
-              />
-            </li>
-            <li class="places__list-item"></li>
-            <li class="places__list-item"></li>
-            <li class="places__list-item"></li>
-            <li class="places__list-item"></li>
-          </ul>
+        </section>
+        <section class="places">
+            <div class="places__card">
+              <h2 class="places__card-title">
+                Kiev, Ucrânia
+              </h2>
+              <h3 class="places__card-artist">
+                Artista
+              </h3>
+              <p class="places__card-artist-name">
+                Natalia Dolgushina, produtora de conteúdo
+              </p>
+              <img src="/images/ucrania__image.jpg" alt="Fotografia de Kyev Capital da Ucrania" class="places__card-image">
+              <p class="places__card-text">
+                Kyev (ou Kiev), capital da Ucrânia, é uma grande cidade localizada às margens do rio Dnipro. É claro que ninguém em sã consciência nadaria no rio, a menos que tenha crescido lá, e nesse caso provavelmente já tentou em algum momento. Os verões são quentes aqui e os invernos são frios, mas o outono e a primavera são absolutamente incríveis.
+              </p>
+              <p class="places__card-text-bottom"> A cidade em si é uma mistura de arquitetura pré-revolução, pós-guerra e soviética, toda ela salpicada de varandas modificadas. Se estiver na margem direita do Dnipro, a paisagem é difícil de percorrer para quem anda de bicicleta e quem usa salto. A margem esquerda é considerada muito menos interessante e prestigiosa, mesmo por pessoas que vivem na periferia da margem direita.
+              </p> 
+              <button type="submit" class="places__card-button">Compre esta obra de arte como NFT</button>                
+            </div>
+            <div class="places__card">
+                <h2 class="places__card-title">
+                  Kiev, Ucrânia
+                </h2>
+                <h3 class="places__card-artist">
+                  Artista
+                </h3>
+                <p class="places__card-artist-name">
+                  Natalia Dolgushina, produtora de conteúdo
+                </p>
+                <img src="/images/ucrania__image.jpg" alt="Fotografia de Kyev Capital da Ucrania" class="places__card-image">
+                <p class="places__card-text">
+                  Kyev (ou Kiev), capital da Ucrânia, é uma grande cidade localizada às margens do rio Dnipro. É claro que ninguém em sã consciência nadaria no rio, a menos que tenha crescido lá, e nesse caso provavelmente já tentou em algum momento. Os verões são quentes aqui e os invernos são frios, mas o outono e a primavera são absolutamente incríveis.
+                </p>
+                <p class="places__card-text-bottom"> A cidade em si é uma mistura de arquitetura pré-revolução, pós-guerra e soviética, toda ela salpicada de varandas modificadas. Se estiver na margem direita do Dnipro, a paisagem é difícil de percorrer para quem anda de bicicleta e quem usa salto. A margem esquerda é considerada muito menos interessante e prestigiosa, mesmo por pessoas que vivem na periferia da margem direita.
+                </p>               
+              </div>
+              <div class="places__card">
+                <h2 class="places__card-title">
+                  Kiev, Ucrânia
+                </h2>
+                <h3 class="places__card-artist">
+                  Artista
+                </h3>
+                <p class="places__card-artist-name">
+                  Natalia Dolgushina, produtora de conteúdo
+                </p>
+                <img src="/images/ucrania__image.jpg" alt="Fotografia de Kyev Capital da Ucrania" class="places__card-image">
+                <p class="places__card-text">
+                  Kyev (ou Kiev), capital da Ucrânia, é uma grande cidade localizada às margens do rio Dnipro. É claro que ninguém em sã consciência nadaria no rio, a menos que tenha crescido lá, e nesse caso provavelmente já tentou em algum momento. Os verões são quentes aqui e os invernos são frios, mas o outono e a primavera são absolutamente incríveis.
+                </p>
+                <p class="places__card-text-bottom"> A cidade em si é uma mistura de arquitetura pré-revolução, pós-guerra e soviética, toda ela salpicada de varandas modificadas. Se estiver na margem direita do Dnipro, a paisagem é difícil de percorrer para quem anda de bicicleta e quem usa salto. A margem esquerda é considerada muito menos interessante e prestigiosa, mesmo por pessoas que vivem na periferia da margem direita.
+                </p>                
+              </div>
+              <div class="places__card">
+                <h2 class="places__card-title">
+                  Kiev, Ucrânia
+                </h2>
+                <h3 class="places__card-artist">
+                  Artista
+                </h3>
+                <p class="places__card-artist-name">
+                  Natalia Dolgushina, produtora de conteúdo
+                </p>
+                <img src="/images/ucrania__image.jpg" alt="Fotografia de Kyev Capital da Ucrania" class="places__card-image">
+                <p class="places__card-text">
+                  Kyev (ou Kiev), capital da Ucrânia, é uma grande cidade localizada às margens do rio Dnipro. É claro que ninguém em sã consciência nadaria no rio, a menos que tenha crescido lá, e nesse caso provavelmente já tentou em algum momento. Os verões são quentes aqui e os invernos são frios, mas o outono e a primavera são absolutamente incríveis.
+                </p>
+                <p class="places__card-text-bottom"> A cidade em si é uma mistura de arquitetura pré-revolução, pós-guerra e soviética, toda ela salpicada de varandas modificadas. Se estiver na margem direita do Dnipro, a paisagem é difícil de percorrer para quem anda de bicicleta e quem usa salto. A margem esquerda é considerada muito menos interessante e prestigiosa, mesmo por pessoas que vivem na periferia da margem direita.
+                </p>                
+              </div>
+              <div class="places__card">
+                <h2 class="places__card-title">
+                  Kiev, Ucrânia
+                </h2>
+                <h3 class="places__card-artist">
+                  Artista
+                </h3>
+                <p class="places__card-artist-name">
+                  Natalia Dolgushina, produtora de conteúdo
+                </p>
+                <img src="/images/ucrania__image.jpg" alt="Fotografia de Kyev Capital da Ucrania" class="places__card-image">
+                <p class="places__card-text">
+                  Kyev (ou Kiev), capital da Ucrânia, é uma grande cidade localizada às margens do rio Dnipro. É claro que ninguém em sã consciência nadaria no rio, a menos que tenha crescido lá, e nesse caso provavelmente já tentou em algum momento. Os verões são quentes aqui e os invernos são frios, mas o outono e a primavera são absolutamente incríveis.
+                </p>
+                <p class="places__card-text-bottom"> A cidade em si é uma mistura de arquitetura pré-revolução, pós-guerra e soviética, toda ela salpicada de varandas modificadas. Se estiver na margem direita do Dnipro, a paisagem é difícil de percorrer para quem anda de bicicleta e quem usa salto. A margem esquerda é considerada muito menos interessante e prestigiosa, mesmo por pessoas que vivem na periferia da margem direita.
+                </p>                
+              </div>
+
+        </section>
         </div>
       </main>
       <footer class="footer"></footer>

@@ -1,46 +1,84 @@
 .header {
-  max-width: 270px;
+  width: 100%;
   background-color: #2a2c2f;
 }
 
 .header__logo {
-  position: relative;
-  left: 505px;
-  top: 34px;
-  margin-bottom: 90px;
+  display: block;
+  margin: 34px auto 90px;
+  max-width: 270px;
 }
 
 .header__title {
   width: 793px;
-  height: 200px;
+
   flex-shrink: 0;
   color: #fff;
   text-align: center;
   font-family: "Inter";
   font-size: 96px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: bold;
   line-height: 100px;
-  margin: 0 243px 32px;
+  margin: 0 auto 32px;
 }
 
 .header__subtitle {
   width: 720px;
-  height: 72px;
   flex-shrink: 0;
   color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 30px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 36px;
-  margin: 0 280px 64px;
+  margin: 0 auto 64px;
 }
 
 .header__image {
+  display: block;
+  width: 100%;
   max-width: 984px;
-  max-height: 615px;
-  flex-shrink: 0;
-  margin: 0 148px 92px;
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    width: 720px;
+    margin-bottom: 99px;
+  }
+  .header__subtitle {
+    margin-bottom: 69px;
+  }
+  .header__image {
+    width: 768px;
+  }
+
+  @media screen and (max-width: 320px) {
+    .header__logo {
+      width: 200px;
+      height: 51.852px;
+      margin-bottom: 50px;
+      margin-top: 20px;
+    }
+
+    .header__title {
+      width: 288px;
+      font-size: 40px;
+      line-height: 44px;
+      margin-bottom: 60px;
+    }
+
+    .header__subtitle {
+      width: 288px;
+      height: 40px;
+      font-size: 16px;
+      margin-bottom: 40px;
+      line-height: 20px;
+    }
+    .header__image {
+      width: 320px;
+    }
+  }
 }
