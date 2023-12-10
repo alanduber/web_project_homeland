@@ -2,6 +2,7 @@
   max-width: 1184px;
   height: 442px;
   flex-shrink: 0;
+  /* margin-bottom: 92px; */
 }
 .images__list {
   list-style: none;
@@ -18,6 +19,7 @@
 @media screen and (max-width: 768px) {
   .images {
     width: 768px;
+    height: 100%;
   }
   .images__list {
     padding: 0;
