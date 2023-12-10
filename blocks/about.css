@@ -4,7 +4,8 @@
   height: 740px;
   margin: 12px auto 0px;
   color: #fff;
-  background: rgba(42, 44, 47, 0.4) url(/images/about__background.jpg) no-repeat;
+  background: rgba(42, 44, 47, 0.4) url(../images/about__background.jpg)
+    no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   display: flex;
@@ -14,7 +15,7 @@
   gap: 32px;
 }
 .about:hover {
-  background: rgba(42, 44, 47, 1) url(/images/about__background.jpg) no-repeat;
+  background: rgba(42, 44, 47, 1) url(../images/about__background.jpg) no-repeat;
   transition: 0.5s;
 }
 
@@ -76,13 +77,13 @@
 
 @media screen and (max-width: 768px) {
   .about {
-    background: rgba(42, 44, 47, 0.4) url(./images/about__background.jpg)
+    background: rgba(42, 44, 47, 0.4) url(../images/about__background.jpg)
       no-repeat;
     background-size: cover;
   }
 
   .about:hover {
-    background: rgba(42, 44, 47, 1) url(./images/about__background.jpg)
+    background: rgba(42, 44, 47, 1) url(../images/about__background.jpg)
       no-repeat;
     background-size: cover;
     transition: 0.5s;
