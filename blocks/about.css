@@ -76,13 +76,14 @@
 
 @media screen and (max-width: 768px) {
   .about {
-    background: rgba(42, 44, 47, 0.4) url(/images/about__background.jpg)
+    background: rgba(42, 44, 47, 0.4) url(./images/about__background.jpg)
       no-repeat;
     background-size: cover;
   }
 
   .about:hover {
-    background: rgba(42, 44, 47, 1) url(/images/about__background.jpg) no-repeat;
+    background: rgba(42, 44, 47, 1) url(./images/about__background.jpg)
+      no-repeat;
     background-size: cover;
     transition: 0.5s;
   }
