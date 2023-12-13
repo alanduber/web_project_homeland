@@ -16,7 +16,7 @@
 .images__list-photo {
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .images {
     width: 768px;
     height: 100%;
@@ -31,17 +31,17 @@
   .images__list-item {
     max-width: 352px;
   }
-}
-@media screen and (max-width: 320px) {
-  .images {
-    width: 288px;
-  }
-  .images__list {
-    padding: 0;
-    width: 288px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    gap: 12px;
-    margin: 0 auto 62px;
+  @media screen and (max-width: 544px) {
+    .images {
+      width: 288px;
+    }
+    .images__list {
+      padding: 0;
+      width: 288px;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+      gap: 12px;
+      margin: 0 auto 62px;
+    }
   }
 }

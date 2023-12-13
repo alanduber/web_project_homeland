@@ -105,7 +105,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .places__card {
     max-width: 733px;
     margin: 88px 11px 31px 24px;
@@ -167,7 +167,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .places {
     width: 100vw;
   }
